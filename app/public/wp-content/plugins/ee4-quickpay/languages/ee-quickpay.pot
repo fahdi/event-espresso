@@ -1,0 +1,215 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Event Espresso - QuickPay (EE 4.x+)\n"
+"POT-Creation-Date: 2017-01-26 12:36+0100\n"
+"PO-Revision-Date: 2017-01-26 12:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: event-espresso-quickpay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: EE_QuickPay.class.php:84
+msgid "Settings"
+msgstr ""
+
+#: payment_methods/includes/QuickPayHelpers/AdminTransactions.php:41
+msgid "QuickPay Actions"
+msgstr ""
+
+#: payment_methods/includes/QuickPayHelpers/AdminTransactions.php:163
+msgid "No API key found - Check your QuickPay settings."
+msgstr ""
+
+#: payment_methods/includes/QuickPayHelpers/AdminTransactions.php:176
+#, php-format
+msgid "Could not perform a \"%s\" on transaction with ID: %d"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EEG_quickpay_offsite.gateway.php:129
+msgid "Payment Approved"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EEG_quickpay_offsite.gateway.php:135
+msgid "Payment Failed"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:28
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:1
+msgid "QuickPay"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:43
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:3
+msgid "QuickPay Settings"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:73
+#, php-format
+msgid "Private Key %s"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:76
+#, php-format
+msgid "API Key %s"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:79
+#, php-format
+msgid "Text on Statement %s"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:82
+#, php-format
+msgid "Branding ID %s"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:85
+#, php-format
+msgid "Payment Methods %s"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:89
+msgid "Disabled"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:90
+msgid "Enabled"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:92
+#, php-format
+msgid "Auto Capture %s"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:6
+msgid "Button Image URL"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:7
+msgid "Change the image that is used for this payment gateway."
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:11
+msgid "Private key"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:12
+msgid ""
+"Your agreement private key. Found in the \"Integration\" tab inside the "
+"QuickPay manager."
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:16
+msgid "API key"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:17
+msgid ""
+"Your API User's key. Create a separate API user in the \"Users\" tab inside "
+"the QuickPay manager."
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:21
+msgid "Text on Statement"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:22
+msgid ""
+"Text that will be placed on cardholder’s bank statement (currently only "
+"supported by Clearhaus)."
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:26
+msgid "Branding ID"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:27
+msgid ""
+"The ID of your custom branding template. Leave empty if you have no custom "
+"branding options."
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:32
+msgid "Payment Methods"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:33
+msgid ""
+"Default: creditcard. Type in the cards you wish to accept (comma separated). "
+"See the valid payment types here: "
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:38
+msgid "Auto Capture"
+msgstr ""
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:39
+msgid "Automatically capture a payment when authorized."
+msgstr ""
+
+#: templates/meta_box/transaction.actions.php:4
+msgid "Current payment state"
+msgstr ""
+
+#: templates/meta_box/transaction.actions.php:8
+msgid "Actions"
+msgstr ""
+
+#: templates/meta_box/transaction.actions.php:15
+msgid "You are about to CAPTURE this payment"
+msgstr ""
+
+#: templates/meta_box/transaction.actions.php:16
+#, php-format
+msgid "Capture Payment (%s)"
+msgstr ""
+
+#: templates/meta_box/transaction.actions.php:22
+msgid "Amount Captured"
+msgstr ""
+
+#: templates/meta_box/transaction.actions.php:31
+msgid "You are about to CANCEL this payment"
+msgstr ""
+
+#: templates/meta_box/transaction.actions.php:32
+msgid "Cancel"
+msgstr ""
+
+#: templates/meta_box/transaction.actions.php:41
+msgid "Transaction ID"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Event Espresso - QuickPay (EE 4.x+)"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://perfect-solution.dk"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The Event Espresso QuickPay Payment Method allows you to accept credit cards "
+"with QuickPay."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PerfectSolution"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.perfect-solution.dk"
+msgstr ""

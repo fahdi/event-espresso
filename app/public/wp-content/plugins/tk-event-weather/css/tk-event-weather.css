@@ -1,0 +1,76 @@
+.tk-event-weather__error {
+	border-left: 4px solid #dc3232; /* same red as admin Error notice */
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+	margin: 15px;
+	padding: 5px 12px
+}
+
+.tk-event-weather__wrapper {
+	line-height: 1;
+	margin: 2rem auto;
+}
+
+.tk-event-weather__wrap_single_day {
+	margin-top: 2rem;
+}
+
+h4.tk-event-weather-day-name {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.tk-event-weather__after {
+	margin-top: 0.5rem;
+}
+
+/* TK Event Weather and Dark Sky credit links */
+
+.tk-event-weather__credit-links {
+	margin-top: 2rem;
+	font-size: 0.5em;
+}
+
+.tk-event-weather-day-name {
+	margin-top: 1rem;
+}
+
+.tk-event-weather-day-summary {
+	margin-bottom: 1rem;
+}
+
+.tk-event-weather__wind-direction-icon {
+	display: inline-block; /* so icon rotation works */
+	font-size: 2rem;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* hourly_horizontal */
+.tk-event-weather__wrapper .template-hourly_horizontal__item {
+	display: inline-block;
+	text-align: center;
+	width: 85px;
+	margin-bottom: 25px; /* in case wraps to multiple line display and for credit links */
+}
+
+.tk-event-weather__wrapper .template-hourly_horizontal__item > span {
+	display: block;
+}
+
+.tk-event-weather__wrapper .template-hourly_horizontal__icon {
+	font-size: 2rem;
+}
+
+/* hourly_vertical */
+
+.tk-event-weather__wrapper .template-hourly_vertical__item > span {
+	display: inline-block;
+	min-width: 50px;
+}
+
+.tk-event-weather__wrapper .template-hourly_vertical__icon {
+	font-size: 2rem;
+	text-align: center;
+	vertical-align: middle;
+}

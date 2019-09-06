@@ -1,0 +1,30 @@
+.ssa-loading
+{
+	display: none;
+	background-image: url('../img/ajax-loader.gif');
+	width: 22px;
+	height: 22px;
+	background-size: 99%
+}
+.ssa-remove
+{
+		display: none;
+	background-image: url('../img/close.png');
+	width: 20px;
+	height: 20px;
+	background-size: 99%;
+	cursor: pointer;
+
+}
+#-error
+{
+	display:none !important;
+}
+.ssa-loading+label
+{
+	display:none !important;
+}
+
+label[id^="ssa_ee_reg_qstn-"][id$="-error"] {
+    display:none !important
+}

@@ -1,0 +1,4 @@
+.tk-event-weather__wrapper .template-hourly_horizontal .tk-event-weather-single-day-weather {
+	overflow-x: auto;
+	white-space: nowrap;
+}

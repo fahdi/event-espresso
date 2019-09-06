@@ -1,0 +1,183 @@
+/*
+
+ * Custom Event Espresso - Event Display v1.0.0 Stylesheet
+
+ *
+
+ * Feel free to edit this file to customize the look of the event display.
+
+ * If any updates are made please make sure that once you have upgraded this version you update
+
+ * this file too.
+
+ *
+
+ * Date: Wed 18 Jan 19:34:00 2012 GMT
+
+ *
+
+ */
+
+
+
+.list_events .month {
+
+	font-size:18px;
+
+}
+
+
+
+.item_left {
+
+width: 32%;
+float: left;
+margin-right: 10px;
+font-size: 12px !important;
+background-color: #ededed;
+border: 1px solid #dedede;
+overflow: hidden;
+
+}
+
+
+
+.item_left .event_header {
+
+	background-color:#ED008C;
+
+}
+
+
+
+.item_left .event_header p {
+
+	color:#fff;
+
+	padding:5px 0 5px 0;
+
+}
+
+
+
+.item_left .event_desc, .item_left .event_header p, .item_left .event_more, .item .item_left .event_price {
+
+	padding-left:10px;
+
+}
+
+.item_left .event_desc {
+	padding:0 10px;	
+}
+
+
+
+.event_desc p, .event_price p, .event_more p {
+
+	margin-bottom:10px !important;
+
+}
+
+
+
+#months {
+
+	height:36px;	
+
+}
+
+
+
+#months ul {
+
+	list-style-type:none;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+
+
+#months ul li {
+	float: left;
+	display: inline;
+	width: 8%;
+	padding: 5px 0;
+	background-color: #ededed;
+	border: 1px solid #dedede;
+	text-align: center;
+	margin: 0;
+	border-right: 1px solid white;
+}
+
+
+
+#months ul li.last {
+
+	margin-right:0;	
+	
+	border-right: 1px solid #dedede;
+}
+
+
+
+#months ul li.active {
+
+	background-color:#ED008C;
+
+}
+
+
+
+#months ul li:hover, #months ul li.inactive {
+
+	background-color:#CCC;
+
+	border-color:#999;
+
+}
+
+#months ul li.inactive {
+	border-right: 1px solid white;
+}
+
+
+
+#months ul li.active a {
+
+	color:#fff !important;	
+
+	text-decoration:none !important;
+
+}
+
+
+
+#years {
+
+	text-align:center;
+
+}
+
+
+
+#years span {
+
+	padding:10px;	
+
+}
+
+#years span a.current {
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+#ajax-loader {
+	display:none;
+	width: 100%;
+	text-align: center;
+	margin: 50px 0;	
+}

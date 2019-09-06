@@ -1,0 +1,72 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+div .ee-email-shortcode-form{
+	font-family: 'Libre Franklin', 'Helvetica Neue', helvetica, arial, sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.66;
+	width: 100%
+}
+
+.wp-submenu-wrap li a.eees_menu-title-tag{
+	color: black !IMPORTANT;
+	background-color: white !IMPORTANT;
+}
+
+
+/* Style the tab */
+div.eees-about div.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.eees-about div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.eees-about div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.eees-about div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+div.eees-about .tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+div.features div.eees_about_two_parts{
+    float:left;
+    width:100%;
+    display: table;
+    overflow: hidden;
+}
+
+div.features div.eees_about_two_parts div.eees_about_images{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.features div.eees_about_two_parts div.eees_about_contents{
+    display: table-cell;
+    vertical-align: bottom;
+}

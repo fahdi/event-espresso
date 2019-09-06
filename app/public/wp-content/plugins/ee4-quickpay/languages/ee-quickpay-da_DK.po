@@ -1,0 +1,228 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Espresso - QuickPay (EE 4.x+)\n"
+"POT-Creation-Date: 2017-01-26 11:42+0100\n"
+"PO-Revision-Date: 2017-01-26 12:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: eea-quickpay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: EE_QuickPay.class.php:91
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: payment_methods/includes/QuickPayHelpers/AdminTransactions.php:41
+msgid "QuickPay Actions"
+msgstr "QuickPay Handlinger"
+
+#: payment_methods/includes/QuickPayHelpers/AdminTransactions.php:163
+msgid "No API key found - Check your QuickPay settings."
+msgstr "Ingen API-nøgle fundet. Kontrollér dine QuickPay-indstillinger."
+
+#: payment_methods/includes/QuickPayHelpers/AdminTransactions.php:176
+#, php-format
+msgid "Could not perform a \"%s\" on transaction with ID: %d"
+msgstr ""
+"Følgende handling: \"%s\" kunne ikke udføres på transaktionen med ID: %d"
+
+#: payment_methods/quickpay_offsite/EEG_quickpay_offsite.gateway.php:129
+msgid "Payment Approved"
+msgstr "Betaling godkendt"
+
+#: payment_methods/quickpay_offsite/EEG_quickpay_offsite.gateway.php:135
+msgid "Payment Failed"
+msgstr "Betaling fejlet"
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:28
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:1
+msgid "QuickPay"
+msgstr "QuickPay"
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:43
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:3
+msgid "QuickPay Settings"
+msgstr "QuickPay Indstillinger"
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:73
+#, php-format
+msgid "Private Key %s"
+msgstr "Privat nøgle %s"
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:76
+#, php-format
+msgid "API Key %s"
+msgstr "API nøgle %s"
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:79
+#, php-format
+msgid "Text on Statement %s"
+msgstr "Tekst på konto %s"
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:82
+#, php-format
+msgid "Branding ID %s"
+msgstr "Branding ID %s"
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:85
+#, php-format
+msgid "Payment Methods %s"
+msgstr "Betalingsmetoder %s"
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:89
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:90
+msgid "Enabled"
+msgstr "Aktiveret"
+
+#: payment_methods/quickpay_offsite/EE_PMT_quickpay_offsite.pm.php:92
+#, php-format
+msgid "Auto Capture %s"
+msgstr "Autotræk %s"
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:6
+msgid "Button Image URL"
+msgstr "URL til billede på knap"
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:7
+msgid "Change the image that is used for this payment gateway."
+msgstr "Skift billedet på den knap, der benyttes for denne betalings-gateway."
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:11
+msgid "Private key"
+msgstr "Privat nøgle"
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:12
+msgid ""
+"Your agreement private key. Found in the \"Integration\" tab inside the "
+"QuickPay manager."
+msgstr ""
+"Din private nøgle, der kan findes i “Integration”-fanen i din QuickPay-"
+"manager."
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:16
+msgid "API key"
+msgstr "API nøgle"
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:17
+msgid ""
+"Your API User's key. Create a separate API user in the \"Users\" tab inside "
+"the QuickPay manager."
+msgstr ""
+"Din API-brugers API nøgle. Nøglen kan findes under “Users” i din QuickPay-"
+"manager."
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:21
+msgid "Text on Statement"
+msgstr "Text på konto"
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:22
+msgid ""
+"Text that will be placed on cardholder’s bank statement (currently only "
+"supported by Clearhaus)."
+msgstr ""
+"Tekst der vises på kortholders bankkonto-ovresigt (Understøttes kun af "
+"Clearhaus)."
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:26
+msgid "Branding ID"
+msgstr "Branding ID"
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:27
+msgid ""
+"The ID of your custom branding template. Leave empty if you have no custom "
+"branding options."
+msgstr ""
+"ID’et på din tilpassede branding-skabelon. Lad feltet være tomt hvis du ikke "
+"har tilpasset din branding-skabelon."
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:32
+msgid "Payment Methods"
+msgstr "Betalingsmetoder"
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:33
+msgid ""
+"Default: creditcard. Type in the cards you wish to accept (comma separated). "
+"See the valid payment types here: "
+msgstr ""
+"Standard: creditcard. Indtast de korttyper, du ønsker at acceptere (komma-"
+"separeret). Se de mulige betalingsmetoder her:"
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:38
+msgid "Auto Capture"
+msgstr "Autotræk"
+
+#: payment_methods/quickpay_offsite/help_tabs/quickpay_offsite.help_tab.php:39
+msgid "Automatically capture a payment when authorized."
+msgstr "Træk automatisk betalinger, når de er blevet autoriseret."
+
+#: templates/meta_box/transaction.actions.php:4
+msgid "Current payment state"
+msgstr "Nuværende betalingsstatus"
+
+#: templates/meta_box/transaction.actions.php:8
+msgid "Actions"
+msgstr "Handlinger"
+
+#: templates/meta_box/transaction.actions.php:15
+msgid "You are about to CAPTURE this payment"
+msgstr "Du er ved at TRÆKKE denne betaling"
+
+#: templates/meta_box/transaction.actions.php:16
+#, php-format
+msgid "Capture Payment (%s)"
+msgstr "Træk betaling (%s)"
+
+#: templates/meta_box/transaction.actions.php:22
+msgid "Amount Captured"
+msgstr "Beløb trukket"
+
+#: templates/meta_box/transaction.actions.php:31
+msgid "You are about to CANCEL this payment"
+msgstr "Du er ved at ANNULLERE denne betaling"
+
+#: templates/meta_box/transaction.actions.php:32
+msgid "Cancel"
+msgstr "Annuller"
+
+#: templates/meta_box/transaction.actions.php:41
+msgid "Transaction ID"
+msgstr "Transaktions-ID"
+
+#. Plugin Name of the plugin/theme
+msgid "Event Espresso - QuickPay (EE 4.x+)"
+msgstr "Event Espresso - QuickPay (EE 4.x+)"
+
+#. Plugin URI of the plugin/theme
+msgid "https://quickpay.net/dk/integrations/event-espresso"
+msgstr "https://quickpay.net/dk/integrations/event-espresso"
+
+#. Description of the plugin/theme
+msgid ""
+"The Event Espresso QuickPay Payment Method allows you to accept credit cards "
+"with QuickPay."
+msgstr ""
+"Event Espresso QuickPay betalingsgateway gør det muligt at tilbyde "
+"kreditkort-betaling med QuickPay"
+
+#. Author of the plugin/theme
+msgid "PerfectSolution"
+msgstr "PerfectSolution"
+
+#. Author URI of the plugin/theme
+msgid "http://www.perfect-solution.dk"
+msgstr "http://www.perfect-solution.dk"
